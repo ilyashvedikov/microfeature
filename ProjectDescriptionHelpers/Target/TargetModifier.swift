@@ -117,7 +117,7 @@ public final class TargetModifier: TargetConvertable {
     }
 
     public func build() -> Target {
-        Target(
+        .target(
             name: name,
             destinations: destinations,
             product: product,
